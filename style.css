@@ -95,7 +95,7 @@ main::after{
 }
 
 .main-video video{
-    width: 100%;
+    width: 150%;
     
 }
 
@@ -229,7 +229,6 @@ nav .logo img{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background: #dad5d5;
     position: absolute;
     left: -35px;
     top: 50%;
@@ -272,3 +271,23 @@ nav .logo img{
     transform: translate(-50%,-50%);
     opacity: 1;
   }
+  /* Mobile Styles */
+@media (max-width: 767px) {
+    .container {
+        width: 95vw;
+        height: 90vh;
+        margin-top: 20px;
+    }
+
+    .character {
+        display: none; /* Hide character image on mobile */
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .content h2
+}
